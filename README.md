@@ -31,6 +31,8 @@ Attackers → Honeypot VM → Azure Monitor Agent → Log Analytics → Sentinel
 - Wrote KQL queries to analyze attack patterns
 - Built workbook for geographic visualization
 
+![Attack Map Visualization](images/attack-map.png)
+
 ## What I Found
 
 The VM got hit almost immediately. Automated bots constantly trying common usernames (Administrator, employee, root, user) with brute force attacks on RDP. Attacks came from everywhere - clear evidence of global bot networks scanning for vulnerable systems.
@@ -95,6 +97,8 @@ SecurityEvent
 **Everything gets scanned constantly.** Put something vulnerable on the internet and it gets found within minutes. Really drives home why proper hardening and monitoring are non-negotiable.
 
 **SIEM architecture understanding.** Got hands-on with the full pipeline: log collection → aggregation → enrichment → querying → visualization. This is the foundation of how SOC teams operate.
+
+![Event Viewer - Failed Logins](images/event-viewer.png)
 
 ## Cost & Cleanup
 
