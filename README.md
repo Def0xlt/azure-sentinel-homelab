@@ -106,11 +106,8 @@ Ran this for about 24-48 hours. Total cost was around $3-5 depending on VM size 
 
 ## What's Next
 
-- Add analytics rules for automated alerting
 - Create incident response playbooks
-- Deploy Linux honeypot for comparison
 - Map detections to MITRE ATT&CK framework
-- Build automation with Logic Apps
 
 ## Why This Project
 
@@ -120,9 +117,7 @@ I'm transitioning from DevOps to security roles (IAM, Security Engineering). Thi
 - Write queries for investigation (KQL, transferable to Splunk/SQL)
 - Understand cloud security operations
 - Combine infrastructure knowledge with security practices
-
-My DevOps background (CI/CD, cloud platforms, monitoring) translates well to security operations - I just needed to prove I can apply it to security use cases.
-
+- 
 ## References
 
 - [Microsoft Sentinel Docs](https://learn.microsoft.com/en-us/azure/sentinel/)
